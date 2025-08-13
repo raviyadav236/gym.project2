@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: hsl(250.5, 90.4%, 59.2%);
+    color: aliceblue;
+    height: 7.4vh;
+
+}
+
+footer nav ul {
+    list-style: none;
+    text-decoration: none;
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+
+}
+
+footer nav ul :hover {
+    color: aqua;
+    font-weight: bold;
+
+
+}
+
+.search input {
+    width: 500px;
+    padding: 8px;
+    /* text-align: center; */
+    align-content: center;
+    margin: 12px;
+    height: 8px;
+    border-radius: 5px;
+}
+
+button {
+    height: 30px;
+    padding: 5px;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: burlywood;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+img {
+    width: 200px;
+}
+
+
+footer nav ul a {
+    height: 12vh;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+main {
+    background-color: hsl(250.5, 90.4%, 59.2%);
+    height: 4.4vh;
+    color: beige;
+}
+
+.class {
+    min-height: calc(100vh);
+
+}
+
+.slider {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    width: 2000px
+}
+
+
+
+.slider1 {
+    padding:1px;
+  background-color: lightpink;
+  height: 30px;
+
+}
+
+
+
+.slider2 {
+    display: flex;
+    background-color: rgb(203, 203, 41);
+    /* display: inline-flex; */
+}
+
+.lines {
+    
+    display: inline-flex;
+    /* display: flex; */
+    padding: 13px;
+    margin: 9.8pxpx;
+    height: 350px;
+}
+
+.photo{
+    flex-direction: column;
+    padding: 13px;
+    margin: 5px;
+    display: block;
+    height: 200px ;
+    width: 100%;
+
+}
+.space{
+    height: 25px;
+}
+.lines2{
+    background-color: lightcoral;
+    color: black;
+height: 30px;
+
+}
+.containor2{
+height: 300px;
+width: 500vw;
+background-color: lightgray;
+padding: 0;
+display: inline-flex;
+margin: 0;
+
+}
+.size{
+    flex-direction: column;
+
+}
+
+.space2{
+    height: 30px;
+    background-color:lightpink;
+}
+
+.execise{
+    width: 200vw;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    background-color: gray;
+}
+.gym{
+    display: inline-flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+}
